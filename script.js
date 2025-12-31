@@ -39,7 +39,7 @@ i love you<3`; // CHANGE THIS
 document.getElementById("herNameDisplay").innerText = HER_NAME;
 
 /* ---------- COUNTDOWN ---------- */
-const TARGET = new Date(2025, 0, 1, 0, 0, 0).getTime(); // January 1, 2026 00:00:00
+const TARGET = new Date(2026, 0, 1, 0, 0, 0).getTime(); // January 1, 2026 00:00:00
 const countdown = document.getElementById("countdown");
 const openBtn = document.getElementById("openBtn");
 const content = document.getElementById("content");
@@ -225,4 +225,5 @@ animate();
 window.onresize = () => {
   canvas.width = innerWidth;
   canvas.height = innerHeight;
+
 };
