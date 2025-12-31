@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Plot Twist</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="hearts"></canvas>
+
+<audio id="bgMusic" src="assets/music/olivia.mp3" loop></audio>
+
+<!-- SPOTIFY EMBED -->
+<iframe id="spotifyEmbed" style="border-radius:12px;margin-top:20px" src="" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<div id="lockScreen">
+  <div class="bear bear1">🐻</div>
+  <div class="bear bear2">🐻‍❄️</div>
+  <div class="bear bear3">🐼</div>
+  <div class="bear bear4">🐻</div>
+  <div class="flower flower1">🌸</div>
+  <div class="flower flower2">🌺</div>
+  <div class="flower flower3">🌷</div>
+  <div class="flower flower4">🌹</div>
+  <div class="flower flower5">💜</div>
+  <div class="flower flower6">💖</div>
+  <div class="particle particle1"></div>
+  <div class="particle particle2"></div>
+  <div class="particle particle3"></div>
+  <div class="particle particle4"></div>
+  <div class="particle particle5"></div>
+  <div class="particle particle6"></div>
+  <div class="particle particle7"></div>
+  <div class="particle particle8"></div>
+  <div id="countdown">Loading...</div>
+  <button id="openBtn">Open it</button>
+</div>
+
+<div id="content">
+
+<section class="section">
+  <h1><b>Happy New Year</b> 💕</h1>
+  <div class="card">
+    <div class="stat"><span>Moments that stole my heart</span>
+      <div class="progress"><div style="--value:85%"></div></div>
+    </div>
+    <div class="stat"><span>Times you made me smile</span>
+      <div class="progress"><div style="--value:100%"></div></div>
+    </div>
+    <div class="stat"><span>Pagiging OA</span>
+      <div class="progress"><div style="--value:100%"></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h1>The Girl in my Dreams 💫</h1>
+  <div class="card split-layout">
+    <div class="split-image">
+      <img src="assets/photos/capy.jpg" alt="My Love">
+    </div>
+    <div class="split-text">
+      <h2 id="herNameDisplay">My Love</h2>
+      <p>she's such a, overthinks every little thing, the kind who wants to be
+          understood but struggles to explain what's going on in her heart,
+          she's such a, cries at night but smiles in the morning type of girl,
+          she's such a, i-don't-want-to-bother-anyone kind of girl, who bottles
+          everything up, she's soft but she's strong, stronger than anyone
+          realizes, because she keeps going, even when she's tired, even 
+          when it feels like no one sees her, she's such a, loves with her
+          whole heart, forgives too quickly, trusts even when she knows better, she has days where she wants to disappear, where nothing feels</p>
+      <p>okay, where she questions her worth, but even on those days, she
+          still gets up, still tries, she's such a beautiful mess, because she's
+          real, real in a world that tells her to be perfect, and maybe she
+          doesn't always feel confident, maybe she doesn't always love what
+          she sees in the mirror, maybe she doubts herself more than she
+          admits. but she's trying to be kinder to herself and if you see
+          yourself in this, if any part of this sounds like you please know this.
+          you are not too much, you are not hard to love, you don't have to </p>
+
+      <p>earn love, you don't have to be productive all the time, you don't
+          have to hide your emotions to be respected, you don't have to fix
+          everything before someone can stay, you don't have to shrink just to
+          fit into someone else's comfort, you are already enough, even when
+          you're falling apart, even when nothing makes sense, especially
+          then, you are allowed to feel deeply, to take your time, to speak up,
+          to be quiet, to ask for help, to say no, to be proud of yourself, to
+          exist as you are, because this world needs women like you, soft but
+          not weak, kind but not naive, hurting but still hopeful, you are not
+          behind, not failing, not broken, you are a beautiful mess, and that
+          is more than okay, that is human, that is brave, that is you.</p>
+    
+  
+  
+</div>
+  </div>
+</section>
+
+<section class="section">
+  <h1>Sungit 💕</h1>
+  <div class="card bento-album">
+    <div class="bento-item large">
+      <img src="assets/photos/shy.jpg" alt="Memory 1">
+      <div class="bento-overlay">
+        <span>shy type</span>
+      </div>
+    </div>
+    <div class="bento-item medium">
+      <img src="assets/photos/peace.jpg" alt="Memory 2">
+      <div class="bento-overlay">
+        <span>Cute Lil Pincess</span>
+      </div>
+    </div>
+    <div class="bento-item small">
+      <img src="assets/photos/niceview.jpg" alt="Memory 3">
+      <div class="bento-overlay">
+        <span>The Attitude</span>
+      </div>
+    </div>
+    <div class="bento-item medium">
+      <img src="assets/photos/bacon.jpg" alt="Memory 4">
+      <div class="bento-overlay">
+        <span>Kunot</span>
+      </div>
+    </div>
+    <div class="bento-item medium">
+      <img src="assets/photos/bleh1.jpg" alt="Memory 5">
+      <div class="bento-overlay">
+        <span>Thea</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h1>A Letter From My Puso (Aray ko) 💌</h1>
+  <div class="card letter" id="typedLetter"></div>
+</section>
+
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
